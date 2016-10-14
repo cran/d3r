@@ -1,0 +1,108 @@
+---
+title: "Recursion in R"
+author: "Kenton Russell"
+date: "September 16, 2016"
+output:
+  html_document:
+    theme: null
+    mathjax: null
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Working in `d3.js` often requires recursion with nested data.  Recursion in `R` can be tricky.
+
+### Flaw? in rapply
+
+Much of the difficulty of recursion in `R` stems from a "flaw" in `rapply`.
+
+```{r}
+# make some simple nested data
+
+(nested <- list(
+  id = "A",
+  children  = list(
+    list(
+      id="A.1",
+      children=list(
+        list(id="A.1.a",size=10),
+        list(id="A.1.b",size=5)
+      )
+    ),
+    list(
+      id="A.2",
+      children=list(id="A.2.a",size=200)
+    )
+  )
+))
+```
+
+When we `rapply` (recursive `lapply`), we quickly discover the "flaw".
+
+```{r}
+rapply(nested, function(x){str(x);NULL})
+```
+
+We lose all attributes, such as names and class.  Without attributes, selectively choosing elements is impossible. For instance, what if we wanted to collect and sum `size`?
+
+### Solution?
+
+For fuller featured tree functionality, please check out [data.tree](https://github.com/gluc/data.tree) and [GeneralTree](https://github.com/abossenbroek/GeneralTree).  Often though we might not want to fool with a full-featured tree structure.
+
+As I worked on the [`d3r`](https://github.com/timelyportfolio/d3r) package, the best solution I found is to `lapply` within `rapply` as shown below in the `recurse` function.
+
+```{r}
+recurse <- function(l, func, ...) {
+  l <- func(l, ...)
+  if(is.list(l) && length(l)>0){
+    lapply(
+      l,
+      function(ll){
+        recurse(ll, func, ...)
+      }
+    )
+  } else {
+    l
+  }
+}
+```
+
+If we wanted to perform our collect `size` task, now we can do it like this.
+
+```{r}
+# assumes only leaves contain size
+#   or otherwise we would have to change traversal order
+sum_size <- function(l){
+  if(is.list(l) && length(l)>0 && "children" %in% names(l)){
+    # unlist
+    ul <- unlist(l$children)
+    sum_size <- sum(as.numeric(unlist(
+      ul[grep(x=names(ul),pattern="size")],
+      use.names=FALSE
+    )))
+    l$size <- sum_size
+    l
+  } else {
+    l
+  }
+}
+```
+
+### Another Difficult Task
+
+For one more example, what if we wanted to rename an element in a nested list?  `partykit` gives us `kids` instead of the generally expected-by-d3.js `children`.  These [`d3r` lines](https://github.com/timelyportfolio/d3r/blob/master/R/party.R#L146-L151) use the `recurse` function to accomplish this renaming.
+
+```{r eval=FALSE}
+rename_children <- function(l, old_name="kids", new_name="children") {
+  if(length(names(l))>0) {
+    names(l)[which(names(l)==old_name)] <- new_name
+  }
+  l
+}
+```
+
+### Correct Me
+
+I understand my ignorance is greater than my knowledge.  Please correct and improve anything from above.
