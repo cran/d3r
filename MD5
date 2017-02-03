@@ -1,8 +1,8 @@
-43caf19df9c8d39f5c24203ab6cfe549 *DESCRIPTION
-7e996d7b789818d925ab1e0fd723d06e *LICENSE
+09b173687e855e95d6efcfb234fefcf6 *DESCRIPTION
+95a7605b733647ca305634341bd42c77 *LICENSE
 ac691dd8eee302edaa0b637ebf4c8107 *NAMESPACE
-30099675a702ccd0cdd80730944794f5 *NEWS.md
-ca96d17c8d7c79e0057a14d641bce0f6 *R/dependencies.R
+88b703813900a58ee3c48e1e0f614d1e *NEWS.md
+8183bb2b569e284832a398f41214d5db *R/dependencies.R
 c926f63446090457503624f37ea314d6 *R/hierarchy.R
 3d4baaea8c7da286068aab431b45c9bf *R/igraph.R
 263d986ea70a976fac091088d6e9840f *R/json.R
@@ -24,7 +24,7 @@ e863f3b38093ec361d12ed4ff001c403 *inst/www/d3/v3/LICENSE
 78ad0266b6e9a62f37db1a72d90ac457 *inst/www/d3/v4/CHANGES.md
 50142b6c2444076623d0819ea6448352 *inst/www/d3/v4/LICENSE
 9830049dc6a0114cdb90dfe69491fded *inst/www/d3/v4/README.md
-dac99cdafcae16ea05f91f4f0070d89d *inst/www/d3/v4/dist/d3.min.js
+ed085ba79e4ba1b7f6b8d438edffdd72 *inst/www/d3/v4/dist/d3.min.js
 385aa490903a19940bedd7c9b81c1a97 *man/change_to_name.Rd
 67491b1d95b216cc4860b3f6a97f02c1 *man/d3_dep_v3.Rd
 ec332861fa975bfb514ff88563f2c1e8 *man/d3_dep_v4.Rd
@@ -35,6 +35,6 @@ e2c6ab2a7badcdeeb96ef2e29da39307 *man/d3_igraph.Rd
 007f7e5d64ae637d7b410da66e8b0471 *man/promote_na.Rd
 adfb5e5425c9d05153a7712f3b0540de *man/promote_na_one.Rd
 d3a296a8b0d316b3fb09f1d5b7e3b983 *tests/testthat.R
-ea7b2c0e998aadeb228526841f471824 *tests/testthat/test_deps.R
+57a7c16cdf849ceee8745dc2b37b43c9 *tests/testthat/test_deps.R
 76cd2dc0757873162a8bacfa33ddeaee *tests/testthat/test_hier.R
-91f17538f1093ef95a6c7db753bea789 *tests/testthat/test_igraph.R
+c963695e4fd26ee30c76e11088faa624 *tests/testthat/test_igraph.R
