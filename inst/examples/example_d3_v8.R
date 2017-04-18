@@ -67,4 +67,45 @@ symbols(
 text(y~x, data=states_packed, labels=states_packed$name)
 # return to original par before we made it square
 par(opar)
+
+# d3.quadtree example
+
+library(d3r)
+
+x = runif(100)
+y = runif(100)
+
+ctx <- d3_v8()
+# assign pts as array of pts in V8
+ctx$assign("pts", matrix(c(x,y),ncol=2,byrow=TRUE))
+# use d3.quadtree() to plot rects
+ctx$eval(
+  "
+  var d3q = d3.quadtree()
+  .addAll(pts);
+  // nodes function from https://bl.ocks.org/mbostock/4343214
+  function nodes(quadtree) {
+  var nodes = [];
+  quadtree.visit(function(node, x0, y0, x1, y1) {
+  nodes.push({x0:x0, y0:y0, x1: x1, y1: y1})
+  });
+  return nodes;
+  }
+  "
+)
+
+nodes <- ctx$get("nodes(d3q)", simplifyVector = FALSE)
+# draw points
+opar <- par(no.readonly=TRUE)
+# make it square
+par(pty="s")
+plot(y~x)
+# draw quadtree rects
+rect(
+  lapply(nodes,function(x){x$x0}),
+  lapply(nodes,function(x){x$y0}),
+  lapply(nodes,function(x){x$x1}),
+  lapply(nodes,function(x){x$y1})
+)
+par(opar)
 }
