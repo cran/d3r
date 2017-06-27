@@ -1,3 +1,9 @@
+# d3r 0.6.6
+
+### Updates
+
+* add d3_table() function to convert R table into list of a nodes data.frame and a links data.frame modelled after [example](http://bl.ocks.org/timelyportfolio/raw/3616869996703d48a981/)
+
 # d3r 0.6.5
 
 ### Updates
