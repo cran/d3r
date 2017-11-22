@@ -1,8 +1,8 @@
-c4d196b57132b0af12755d1809e115da *DESCRIPTION
+8d097c1692a10a81a1f1cc129b4dfd65 *DESCRIPTION
 078f39ffdb5453edd5ea7d0cc7db94d3 *LICENSE
 3858ec8efc02377e3b4339d77af8bb4f *NAMESPACE
-1eeaa6c96dc7bc11a5db5dbda814d0b0 *NEWS.md
-724e40ca1f49fb24cebcdfce0b9ab558 *R/dependencies.R
+40251100de6b90cd0614c3f4b654016f *NEWS.md
+4689014c7128470ecb7f167b84501ce7 *R/dependencies.R
 2ac928d09c172774753398cace2cd523 *R/hierarchy.R
 3d4baaea8c7da286068aab431b45c9bf *R/igraph.R
 263d986ea70a976fac091088d6e9840f *R/json.R
@@ -26,11 +26,11 @@ f40b2ea7fda4b16633ccc5b75cd30db7 *inst/www/d3/d3-jetpack/README.md
 022a42824252fec22f117ccd351cf3a8 *inst/www/d3/d3-jetpack/package.json
 be0c927d3e30dd15f9238cada31bfce0 *inst/www/d3/v3/LICENSE
 8da8f16a051fe0b34d9ca10f4a21838f *inst/www/d3/v3/dist/d3.min.js
-1584d5bc25ccdee95c1dfbc8f343afa8 *inst/www/d3/v4/API.md
+42fcccad41fd85c630d6ced4eb8017d3 *inst/www/d3/v4/API.md
 d9e1e9dd186067e38a1dbc82bf427de0 *inst/www/d3/v4/CHANGES.md
 0679931d76eb2f1dd1915249da84a722 *inst/www/d3/v4/LICENSE
 1034a85ad9e8811152e8a26bd86ac64e *inst/www/d3/v4/README.md
-897061c6cde2a3a62e3d22019726114a *inst/www/d3/v4/dist/d3.min.js
+68c8b9a35f7b7400ef73282246f8cbe7 *inst/www/d3/v4/dist/d3.min.js
 8f80393b3596dc1385b21bd57dab8b78 *man/change_to_name.Rd
 97d376f3b4fa6858e9e3809bbc0d1196 *man/d3_dep_jetpack.Rd
 92aa4bbdbc0b87bb9226b04089a7ed8d *man/d3_dep_v3.Rd
