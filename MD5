@@ -1,8 +1,8 @@
-766f97ae265da6372a36c26d2a956656 *DESCRIPTION
+c106dfd12ce06ba814c4597668804228 *DESCRIPTION
 078f39ffdb5453edd5ea7d0cc7db94d3 *LICENSE
 4bff4d778567a0cdf739342342ef0da8 *NAMESPACE
-76ee790f4cd001eaa94e2fc8ba25818e *NEWS.md
-fffea0ca631901c4ca1804e80402bf27 *R/dependencies.R
+733ffce252930af49c3d4e496a0ac267 *NEWS.md
+28ea22e4a9c31e5561871c4b238775ef *R/dependencies.R
 2ac928d09c172774753398cace2cd523 *R/hierarchy.R
 3d4baaea8c7da286068aab431b45c9bf *R/igraph.R
 263d986ea70a976fac091088d6e9840f *R/json.R
@@ -31,11 +31,11 @@ d9e1e9dd186067e38a1dbc82bf427de0 *inst/www/d3/v4/CHANGES.md
 0679931d76eb2f1dd1915249da84a722 *inst/www/d3/v4/LICENSE
 1034a85ad9e8811152e8a26bd86ac64e *inst/www/d3/v4/README.md
 e899651bcf1a3591032d7213daeab171 *inst/www/d3/v4/dist/d3.min.js
-12ad52d8706d655d48c429eb004dd71d *inst/www/d3/v5/API.md
-d9e1e9dd186067e38a1dbc82bf427de0 *inst/www/d3/v5/CHANGES.md
+f870ccf972591eea9e8b06e24e0c266a *inst/www/d3/v5/API.md
+ae491d3619511521b25bfb276f0cd971 *inst/www/d3/v5/CHANGES.md
 0679931d76eb2f1dd1915249da84a722 *inst/www/d3/v5/LICENSE
 733a562a74d22165d0d2aebda6adcd1d *inst/www/d3/v5/README.md
-e487b844fa5452ceb10fc5f46bfdb816 *inst/www/d3/v5/dist/d3.min.js
+58c4db79af8ab035d60c1995027093e4 *inst/www/d3/v5/dist/d3.min.js
 8f80393b3596dc1385b21bd57dab8b78 *man/change_to_name.Rd
 74f40aae5d35ff551f845a8bcd6de251 *man/d3_dep_jetpack.Rd
 0c6ae5fbb7c4269311558f246d03bd74 *man/d3_dep_v3.Rd
@@ -50,7 +50,7 @@ bb861978da9c6ec10463a62a86a98fc6 *man/d3_v8.Rd
 c47b609bfea76637eda7838883350426 *man/promote_na.Rd
 7aaae0ad01f58277ee24e6597b7abcb7 *man/promote_na_one.Rd
 d3a296a8b0d316b3fb09f1d5b7e3b983 *tests/testthat.R
-46e1c5e457b7883225a227be712dfed6 *tests/testthat/test_deps.R
+2383032fdd780f9b7d1e24623e3f763f *tests/testthat/test_deps.R
 a07df2fbf20896274f64844845e836a6 *tests/testthat/test_hier.R
 affa7cf5d5d6024b7c4acf21a2ed15c6 *tests/testthat/test_igraph.R
 75a4878e9cd837ac4ca03c331456dc96 *tests/testthat/test_table.R
