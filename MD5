@@ -1,8 +1,8 @@
-c106dfd12ce06ba814c4597668804228 *DESCRIPTION
+a3b1c5730a18b73a8ba7eece442aa6b8 *DESCRIPTION
 078f39ffdb5453edd5ea7d0cc7db94d3 *LICENSE
 4bff4d778567a0cdf739342342ef0da8 *NAMESPACE
-733ffce252930af49c3d4e496a0ac267 *NEWS.md
-28ea22e4a9c31e5561871c4b238775ef *R/dependencies.R
+66727130e078206e8392c0f14d9d4164 *NEWS.md
+c07046e62cda006389194f9342ff8a6b *R/dependencies.R
 2ac928d09c172774753398cace2cd523 *R/hierarchy.R
 3d4baaea8c7da286068aab431b45c9bf *R/igraph.R
 263d986ea70a976fac091088d6e9840f *R/json.R
@@ -10,7 +10,7 @@ c106dfd12ce06ba814c4597668804228 *DESCRIPTION
 a669754ddbea119ba5c3d6616162306c *R/partykit_unexported.R
 48dbbec6adb6b3d2390bd47dffa9b8ec *R/table.R
 1c21058182325fe48532e124339a87c3 *R/v8.R
-b50eb53b36231d888990cfd24aa48bb9 *README.md
+afa64ef5dc994028dbf52a621791faaf *README.md
 bed00c8274c78e6aeab21be63ea1fb7e *inst/examples/example_d3_annotation.R
 191ec206478883d809fd1556198418f0 *inst/examples/example_d3_jetpack.R
 68b07d084636f5ad84f63f4fd542849e *inst/examples/example_d3_v8.R
@@ -31,11 +31,11 @@ d9e1e9dd186067e38a1dbc82bf427de0 *inst/www/d3/v4/CHANGES.md
 0679931d76eb2f1dd1915249da84a722 *inst/www/d3/v4/LICENSE
 1034a85ad9e8811152e8a26bd86ac64e *inst/www/d3/v4/README.md
 e899651bcf1a3591032d7213daeab171 *inst/www/d3/v4/dist/d3.min.js
-f870ccf972591eea9e8b06e24e0c266a *inst/www/d3/v5/API.md
+a3dd64506a194f7bf4f78e3ae43c5869 *inst/www/d3/v5/API.md
 ae491d3619511521b25bfb276f0cd971 *inst/www/d3/v5/CHANGES.md
 0679931d76eb2f1dd1915249da84a722 *inst/www/d3/v5/LICENSE
 733a562a74d22165d0d2aebda6adcd1d *inst/www/d3/v5/README.md
-58c4db79af8ab035d60c1995027093e4 *inst/www/d3/v5/dist/d3.min.js
+6422cecb9407dae02ca533c0d873633c *inst/www/d3/v5/dist/d3.min.js
 8f80393b3596dc1385b21bd57dab8b78 *man/change_to_name.Rd
 74f40aae5d35ff551f845a8bcd6de251 *man/d3_dep_jetpack.Rd
 0c6ae5fbb7c4269311558f246d03bd74 *man/d3_dep_v3.Rd
