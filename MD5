@@ -1,8 +1,8 @@
-a3b1c5730a18b73a8ba7eece442aa6b8 *DESCRIPTION
+257d977cff01ec5976343f65740aa631 *DESCRIPTION
 078f39ffdb5453edd5ea7d0cc7db94d3 *LICENSE
 4bff4d778567a0cdf739342342ef0da8 *NAMESPACE
-66727130e078206e8392c0f14d9d4164 *NEWS.md
-c07046e62cda006389194f9342ff8a6b *R/dependencies.R
+de35e691f0d329afd865c56e339eeb1a *NEWS.md
+4f6cc8fa721be3ba339a014f6e126586 *R/dependencies.R
 2ac928d09c172774753398cace2cd523 *R/hierarchy.R
 3d4baaea8c7da286068aab431b45c9bf *R/igraph.R
 263d986ea70a976fac091088d6e9840f *R/json.R
@@ -10,7 +10,7 @@ c07046e62cda006389194f9342ff8a6b *R/dependencies.R
 a669754ddbea119ba5c3d6616162306c *R/partykit_unexported.R
 48dbbec6adb6b3d2390bd47dffa9b8ec *R/table.R
 1c21058182325fe48532e124339a87c3 *R/v8.R
-afa64ef5dc994028dbf52a621791faaf *README.md
+3642246ca63d6caeceeff7ad3533bef5 *README.md
 bed00c8274c78e6aeab21be63ea1fb7e *inst/examples/example_d3_annotation.R
 191ec206478883d809fd1556198418f0 *inst/examples/example_d3_jetpack.R
 68b07d084636f5ad84f63f4fd542849e *inst/examples/example_d3_v8.R
