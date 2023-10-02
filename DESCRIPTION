@@ -1,8 +1,8 @@
 Package: d3r
 Type: Package
 Title: 'd3.js' Utilities for R
-Version: 1.0.1
-Date: 2023-02-05
+Version: 1.1.0
+Date: 2023-10-01
 Authors@R: c(
       person(
         "Mike", "Bostock"
@@ -39,12 +39,12 @@ Description: Provides a suite of functions to help ease the use of 'd3.js' in R.
               and 'data.frame' R objects into the 'JSON' that 'd3.js' expects.
 License: BSD_3_clause + file LICENSE
 Encoding: UTF-8
-Imports: dplyr, htmltools, rlang, tidyr (>= 0.8.3)
+Imports: dplyr, htmltools, tidyr (>= 0.8.3)
 Suggests: httr, jsonlite, listviewer, purrr, testthat
 Enhances: igraph, partykit, rpart, treemap, V8
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-02-05 16:59:31 UTC; kentr
+Packaged: 2023-10-02 01:58:41 UTC; kentr
 Author: Mike Bostock [aut, cph] (d3.js library in htmlwidgets/lib,
     http://d3js.org),
   Kent Russell [aut, cre, cph] (R interface),
@@ -53,4 +53,4 @@ Author: Mike Bostock [aut, cph] (d3.js library in htmlwidgets/lib,
   Adam Pearce [aut] (core contributor to d3-jetpack),
   Ben Ortiz [ctb]
 Repository: CRAN
-Date/Publication: 2023-02-05 23:12:38 UTC
+Date/Publication: 2023-10-02 14:00:02 UTC
